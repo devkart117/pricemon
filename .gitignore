@@ -1,0 +1,10 @@
+**/__pycache__/
+.vscode
+venv
+user_data_dir
+user_data_dir2
+.env
+test.py
+logs/script.log
+data/output.xlsx
+downloaded_files
