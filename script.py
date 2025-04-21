@@ -119,7 +119,7 @@ if __name__ == '__main__':
             exit()
 
     logger.info('scraping 1mg data')
-    for index, entry in enumerate(one_mg_data[:10]):
+    for index, entry in enumerate(one_mg_data):
         try:
             Id = entry['Id']
             SKU = entry['SKU']
