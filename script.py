@@ -90,7 +90,7 @@ if __name__ == '__main__':
             continue
         
     logger.info('scraping flipkart data')
-    for index, entry in enumerate(flipcart_data):
+    for index, entry in enumerate(flipkart_data):
         try:
             Id = entry['Id']
             SKU = entry['SKU']

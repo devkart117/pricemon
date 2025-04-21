@@ -8,3 +8,4 @@ test.py
 logs/script.log
 data/output.xlsx
 downloaded_files
+capture-log.txt
