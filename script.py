@@ -89,8 +89,8 @@ if __name__ == '__main__':
             logger.warning(f'[{index + 1}/{len(amazon_data)}] skipping amazon product, ASIN: {ASIN}')
             continue
         
-    logger.info('scraping flipkart data')
-    for index, entry in enumerate(flipkart_data):
+    logger.info('scraping flipcart data')
+    for index, entry in enumerate(flipcart_data):
         try:
             Id = entry['Id']
             SKU = entry['SKU']
@@ -119,7 +119,7 @@ if __name__ == '__main__':
             exit()
 
     logger.info('scraping 1mg data')
-    for index, entry in enumerate(one_mg_data):
+    for index, entry in enumerate(one_mg_data[:10]):
         try:
             Id = entry['Id']
             SKU = entry['SKU']
