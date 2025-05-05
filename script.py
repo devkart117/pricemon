@@ -178,6 +178,8 @@ if __name__ == '__main__':
 
     driver.quit()
 
+    time.sleep(30)
+
     driver = get_chromedriver_without_proxy()
 
     logger.info('scraping hyugalife data')
